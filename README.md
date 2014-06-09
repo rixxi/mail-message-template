@@ -16,9 +16,9 @@ extensions:
 Create template with subject, body and html body. All parts are optional.
 
 ```latte
-{subject}Welcome to our site {$user}{/subject}
+{subject}Welcome to our site {$user->name}{/subject}
 
-{body text} {* text is default *}
+{body}
 Oh how we are so grateful {$user->name} that you decided to join our awesome service.
 
 Sincerly,
@@ -26,7 +26,7 @@ yours CEO
 Only Man in the Company
 {/body}
 
-{body html}
+{body html} {* text is default *}
 <marquee>Oh how we are so grateful {$user->name} that you decided to join our awesome service.<marquee>
 
 <p>
