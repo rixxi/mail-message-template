@@ -17,7 +17,7 @@ remains intact.
 New BSD License
 ---------------
 
-Copyright (c) 2013 Michal Gebauer (http://mishak.net)
+Copyright (c) 2014 Michal Gebauer (http://mishak.net)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
